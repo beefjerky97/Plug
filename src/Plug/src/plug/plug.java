@@ -1,19 +1,17 @@
 //TODO Package declaration
- 
+package Plug.src.plug;
 import org.bukkit.plugin.java.JavaPlugin;
  
 public class plug extends JavaPlugin{
    
     public void onEnable(){
        
-        //TODO initialize plugin
-       
+        getLogger().info("onEnable has been invoked!");       
     }
    
     public void onDisable(){
        
-        //TODO disable
-       
+    	getLogger().info("onDisable has been invoked!");       
     }
  
 }
