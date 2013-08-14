@@ -1,4 +1,3 @@
-//TODO Package declaration
 package Plug.src.plug;
 import org.bukkit.plugin.java.JavaPlugin;
  
